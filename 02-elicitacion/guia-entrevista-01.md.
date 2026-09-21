@@ -1,0 +1,221 @@
+**PLANTILLA DILIGENCIADA · UNIDAD 3 · SESIÓN 2 · INGENIERÍA DE REQUISITOS**
+
+
+**Guía de entrevista de elicitación**
+
+**Proyecto:** sistema de información para la gestión de obras — empresa de obra civil e infraestructura.
+
+Entrevista 1 de la fase de elicitación · Semiestructurada · 60 minutos
+
+> **Contenido de este documento.** Secciones 1 a 10: la guía de entrevista diligenciada según la plantilla de la Sesión 2. Anexo A: transcripción (archivo aparte: [`anexo-a-transcripcion-entrevista-01.md`](anexo-a-transcripcion-entrevista-01.md)). Anexo B: declaración de uso de IA.
+
+**1. Identificación de la entrevista**
+
+> **Objetivo de la entrevista (qué desconocemos y esperamos saber al terminar)**
+> 
+> Reconstruir, sobre obras concretas y recientes, qué información se produce en cada etapa de una obra (aprobación, compras, contratación, ejecución y cierre), quién la registra y dónde queda; e identificar en qué puntos esa información se pierde, se duplica o llega tarde a quien debe tomar la decisión.
+
+> **Entrevistada, cargo y rol en el proyecto**
+> 
+> Administradora de proyectos (identidad reservada). Es quien concentra la información administrativa de todas las obras en curso: contratos, afiliaciones, órdenes de compra y soportes.
+
+> **Fecha, hora y lugar**
+> 
+> Septiembre de 2026, en la mañana · puesto de trabajo de la entrevistada. \[completar día y hora exactos\]
+
+> **Entrevistador / Relator (personas distintas)**
+> 
+> Entrevistadora: Paola Andrea Camacho González.
+> 
+> Relatores: Sebastián Felipe Huertas Salas · Juan Miguel Blanco Perilla.
+
+> **Tipo de entrevista y permiso de grabación**
+> 
+> Semiestructurada, en orden de embudo (contexto → proceso → excepciones → datos).
+> 
+> Grabación de audio autorizada. El permiso se pidió de forma explícita al inicio, indicando el propósito, el uso de la información y que podía interrumpirse en cualquier momento; la entrevistada autorizó verbalmente y esa autorización quedó registrada al comienzo de la grabación.
+
+> **Alcance declarado.** Esta entrevista cubre el ciclo documental de una obra visto desde administración de proyectos. Quedan fuera, para otras entrevistas: el detalle técnico de ejecución en campo (residente de obra), las reglas contables y tributarias (contador), SST y control de calidad, el inventario de maquinaria y equipos, y la viabilidad tecnológica en frentes de obra. Lo que quedó fuera pasó a la sección 10 con su responsable.
+> 
+> **Barrido previo.** Existe un cuestionario preliminar ya diligenciado por la empresa, que respondió el marco general (actividad, tamaño, procesos, uso de Excel, problemas declarados). Siguiendo el criterio del ejemplo resuelto, eso no se volvió a preguntar de forma abierta: se convirtió en preguntas de verificación (§7) y en preguntas por el caso concreto (§5.2).
+
+**2. Apertura**
+
+*Guion textual: propósito, uso de la información y confidencialidad, y petición de permiso para grabar.*
+
+> **Guion de apertura**
+> 
+> «Gracias por el tiempo. Estamos levantando cómo funciona hoy el proceso completo de una obra: desde que llega la solicitud, pasando por la aprobación, las compras, la contratación y la ejecución, hasta que la obra se entrega. Nuestro propósito no es evaluar el proceso ni a nadie que trabaje en él, y tampoco venimos a proponer todavía ninguna solución: venimos a entender cómo se hace hoy, con sus dificultades reales.
+> 
+> Lo que nos cuente se usa para documentar el proceso. En el informe aparecen los hallazgos, no los nombres. Si algo de lo que diga prefiere que no quede registrado, dígamelo y no lo anoto.
+> 
+> ¿Está bien si grabo el audio para no perder detalle? Puedo apagarlo en cualquier momento. Serían unos 60 minutos.»
+
+> *Si la respuesta hubiera sido no, se tomaba nota a mano y se asumía que la entrevista rendiría algo menos. No se graba nunca sin permiso explícito.*
+
+**3. Preguntas de contexto · boca del embudo**
+
+*Abiertas y amplias, para que la entrevistada enmarque el tema con sus propias palabras — y para que se suelte antes de las preguntas difíciles.*
+
+> **Preguntas de contexto**
+> 
+> **C1.** Cuénteme en qué consiste su trabajo como administradora de proyectos y cómo es un día típico suyo.
+> 
+> **C2.** ¿Qué obras tiene hoy a cargo al mismo tiempo, y en qué etapa va cada una?
+> 
+> **C3.** Piense en la última obra que entregaron. Cuénteme, a grandes rasgos, cómo fue esa obra de principio a fin.
+
+> *C3 fija el caso concreto sobre el que se narra el resto de la entrevista. La guía teórica insiste en pedir un caso concreto y reciente, no el proceso «como debería ser».*
+
+**4. Preguntas libres de contexto · Gause & Weinberg**
+
+*No presuponen nada sobre la solución ni sobre el dominio: podrían hacerse en cualquier proyecto.*
+
+> **Preguntas libres de contexto**
+> 
+> **LC1.** ¿Quién es realmente el cliente de este proceso? Cuando usted organiza la información de una obra, ¿para quién la está organizando?
+> 
+> **LC2.** ¿Cuál sería para usted una solución exitosa? Si dentro de un mes esto estuviera resuelto, ¿en qué lo notaría usted en su día a día?
+> 
+> **LC3.** ¿Qué problema resolvería un cambio en la forma de manejar esta información? ¿Y qué problema nuevo podría crear?
+> 
+> **LC4.** ¿Hay alguna restricción que debamos conocer antes de proponer nada?
+
+> *La quinta pregunta libre de contexto de la guía teórica —«¿hay alguien más a quien debería hacerle estas mismas preguntas?»— se reservó para el cierre (§8), que es donde el ejemplo resuelto la ubica. Ponerla en ambos sitios sería preguntar dos veces lo mismo.*
+
+**5. Preguntas núcleo: proceso y excepciones**
+
+> **Preguntas sobre el proceso**
+> 
+> **P1.** Cuénteme paso a paso qué hace usted desde que llega la solicitud de una obra hasta que queda aprobada. ¿Qué documento se produce en cada paso y dónde queda guardado?
+> 
+> **P2.** Una vez aprobada la obra, cuénteme paso a paso cómo se pide un material: quién lo solicita, quién lo aprueba, y en qué queda registrado ese pedido.
+> 
+> **P3.** ¿Cómo se decide y dónde queda documentado a quién se contrata para una obra?
+> 
+> **P4.** Durante la ejecución, ¿qué información le llega a usted desde la obra, con qué frecuencia y en qué formato?
+> 
+> **P5.** ¿Cómo se entera usted de que un plazo de pago a un proveedor está por vencerse?
+> 
+> **P6.** ¿Y qué le avisa que se está acercando la fecha de entrega de la obra al cliente?
+> 
+> **P7.** Cuando una obra se termina y se entrega, ¿qué pasa con toda la documentación que se produjo durante la obra?
+
+> *P5 y P6 van separadas a propósito: en una sola pregunta se responde una sola cosa y no se sabe cuál. Además, están formuladas de forma neutra — preguntar «¿le serviría una alerta automática?» sería inductivo y habría producido un sí de cortesía.*
+
+> **Preguntas sobre excepciones**
+> 
+> **E1.** Cuénteme la última vez que se necesitó un documento de una obra y no apareció. ¿Qué documento era, en qué momento se necesitaba y qué hicieron?
+> 
+> **E2.** ¿Cuándo fue la última vez que se incumplió un plazo? Cuénteme qué pasó y qué se hizo.
+> 
+> **E3.** Cuénteme la última vez que se pidió dos veces el mismo material, o que llegó algo que ya estaba pedido. ¿Cómo se dieron cuenta?
+> 
+> **E4.** Cuando hay varios frentes de obra abiertos al tiempo y usted necesita con urgencia un dato de uno de ellos, ¿qué hace?
+> 
+> **E5.** Si una persona que maneja la información de una obra se ausenta o sale de la empresa a mitad del proyecto, ¿qué pasa con lo que ella tenía?
+
+> *Cada pregunta pide un caso fechado y verificable, no una generalización: «las excepciones son donde viven la mayoría de los requisitos no obvios».*
+
+**6. Preguntas de sondeo previstas**
+
+*Con la frase exacta, porque en la entrevista no hay tiempo de redactarlas. No todas se usaron; las que se usaron están señaladas en el Anexo A (`anexo-a-transcripcion-entrevista-01.md`).*
+
+| **Técnica**                  | **Frase exacta prevista**                                      | **Cuándo dispararla**                                                                                           |
+| ---------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Silencio deliberado          | — (esperar 2-3 segundos antes de hablar)                       | Siempre que termine una respuesta. Con frecuencia completa lo que de verdad importaba.                          |
+| Eco                          | «¿…lo anotan a mano?» / «¿…lo que nunca alcanza?»              | Cuando mencione de paso un registro, un archivo o una dificultad.                                               |
+| Petición de ejemplo concreto | «¿Me cuenta la última vez que pasó eso?»                       | Ante cualquier generalización: «a veces», «de vez en cuando», «eso pasa».                                       |
+| Petición de demostración     | «¿Me lo puede mostrar?»                                        | Cuando nombre un archivo de Excel o una carpeta. La entrevista es en su puesto de trabajo justamente para esto. |
+| Parafraseo de verificación   | «Entonces, si entendí bien, … ¿Es así?»                        | Después de cada respuesta larga del recorrido del proceso.                                                      |
+| Pregunta por la excepción    | «¿Y cuándo no funciona así?»                                   | Al final de cada paso narrado, para salir del proceso ideal.                                                    |
+| Cuantificación de lo vago    | «Cuando dice “se demora”, ¿de cuánto tiempo estamos hablando?» | Ante adjetivos de tiempo o cantidad sin cifra.                                                                  |
+
+> **Lo que no se debe hacer mientras se sondea**
+> 
+> **Pregunta inductiva:** «¿Verdad que sería más cómodo que el sistema le avisara antes de que se venza el pago?» — la entrevistada diría que sí por cortesía, y el equipo se llevaría como requisito algo que se inventó a sí mismo.
+> 
+> **Doble pregunta:** «¿El proceso es lento y además se pierde la información?» — si responde «sí», no se sabe a cuál de las dos afirmaciones se refiere.
+> 
+> **Preguntar por la solución:** se pregunta por el problema y la necesidad («cuénteme cómo hace esto hoy»), nunca por la solución («¿quiere un módulo que…?»).
+
+**7. Preguntas de datos · cuello del embudo**
+
+*Cerradas, rápidas de responder y de tabular. Van al final porque no requieren que la entrevistada esté «caliente». Las dos últimas verifican lo que el cuestionario preliminar ya había respondido.*
+
+> **Preguntas cerradas**
+> 
+> **Volúmenes**
+> 
+> **D1.** ¿Cuántas obras administra usted al mismo tiempo, hoy?
+> 
+> **D2.** En una obra típica, ¿cuántas órdenes de compra se generan aproximadamente?
+> 
+> **D3.** Para una sola obra, ¿cuántos archivos distintos de Excel maneja usted?
+> 
+> **D4.** ¿Cuántas personas registran información en los archivos de una misma obra?
+> 
+> **Tiempos**
+> 
+> **D5.** Desde que alguien en obra pide un material hasta que la compra queda aprobada, ¿cuánto tiempo pasa normalmente?
+> 
+> **D6.** Cuando usted necesita un documento de una obra anterior, ¿cuánto se demora en encontrarlo?
+> 
+> **Verificaciones del cuestionario preliminar**
+> 
+> **D7.** Nos indicaron que los informes de avance son semanales. ¿En la práctica se cumple esa frecuencia?
+> 
+> **D8.** Nos indicaron que este tipo de problema se presenta alrededor de dos veces por obra. ¿Coincide con lo que usted ve?
+
+> *D2, D5 y D8 no obtuvieron cifra: la entrevistada respondió con rangos o remitió a los archivos. Se registraron como estimaciones —no como datos— y pasaron a la sección 10 para verificarse contra los archivos históricos.*
+
+**8. Cierre**
+
+> **Síntesis de vuelta (redactada durante la entrevista)**
+> 
+> «Antes de terminar, déjeme resumirle lo que entendí y me corrige. Una obra empieza con la solicitud del cliente; el ingeniero arma el presupuesto con materiales, mano de obra e indirectos, y gerencia aprueba. A partir de ahí, el material lo pide el residente según va la obra, lo autorizan el gerente de obra y el contador, y queda en el archivo de esa obra. Durante la ejecución usted recibe un informe semanal con fotos, más lo urgente que le llega por llamada o mensaje. Los plazos de pago a proveedores no los controla nadie: se entera cuando el proveedor llama. Y toda la información vive en archivos de Excel, uno por obra y por tema, que se alimentan a mano y no siempre están en su última versión. ¿Me faltó algo o entendí mal alguna parte?»
+> 
+> **Corrección de la entrevistada:** «Está bien, pero usted lo está contando como si fuera una obra. Una sola obra uno la maneja, eso no es problema. El problema es que son tres o cuatro al tiempo, cada una con su cuento, y uno es el mismo para todas.»
+
+> *La síntesis de vuelta produjo el hallazgo n.º 7: el problema no escala por obra sino por simultaneidad. En 55 minutos de preguntas eso no había salido así de claro, porque todas las preguntas estaban formuladas sobre «una obra».*
+
+> **Preguntas de cierre**
+> 
+> **CI1.** ¿Qué no le pregunté que debería haberle preguntado?
+> 
+> **CI2.** ¿Quién más debería contarme esto?
+> 
+> **CI3.** ¿Puedo escribirle si me queda alguna duda al transcribir?
+
+> *CI1 —la pregunta de rescate— entregó el hallazgo n.º 9: control de calidad, SST y maquinaria también generan documentación, y no habían aparecido en ningún punto del proceso descrito. CI2 identificó dos roles pendientes de entrevistar: el residente de obra y el contador.*
+
+**9. Notas y hallazgos**
+
+*Redactados dentro de las 24 horas siguientes. Se separan el hecho (lo que se dijo u observó), la necesidad (lo que la persona quiere lograr) y el requisito candidato (la propuesta del equipo, todavía sin validar con el resto de interesados).*
+
+| **\#** | **Hecho declarado u observado**                                                                                                                              | **Necesidad expresada**                                    | **Requisito candidato**                                                                                                            |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 1      | En obra los datos se anotan a mano «por comodidad» y después se pasan al archivo. En ese «después» es donde se pierde información.                           | Que el dato no se tenga que escribir dos veces.            | El sistema registra el avance y el consumo en el sitio y en el momento, con fecha y hora del sistema, sin transcripción posterior. |
+| 2      | Al pedirle que mostrara el archivo de presupuesto, la versión abierta no era la última: la última la tenía el ingeniero.                                     | Trabajar sobre una sola versión vigente.                   | Fuente única por obra, con la última versión siempre visible y registro de quién modificó y cuándo.                                |
+| 3      | Se han perdido facturas. Una se presentó fuera de término y generó una multa.                                                                                | No volver a perder soportes.                               | Cada compra guarda su soporte asociado a la obra y a la orden; el sistema señala las órdenes que quedaron sin soporte cargado.     |
+| 4      | Los pedidos duplicados solo se detectan cuando el material llega físicamente a la obra.                                                                      | Saber antes que algo ya se pidió.                          | El sistema advierte al registrar una solicitud de un material que ya tiene otra solicitud vigente en la misma obra.                |
+| 5      | Nadie controla los vencimientos de pago a proveedores: se enteran cuando el proveedor llama.                                                                 | Enterarse antes del vencimiento, no después.               | El sistema notifica al responsable y a gerencia antes del vencimiento de un pago y antes de la fecha de entrega comprometida.      |
+| 6      | La aprobación de una compra pasa por gerente de obra y contador; puede resolverse el mismo día o pasar al siguiente, con la cuadrilla esperando.             | Que el trámite de aprobación no detenga el frente de obra. | Flujo de aprobación con estado visible y responsable actual identificado en todo momento.                                          |
+| 7      | El problema no escala por obra sino por simultaneidad: unas dos veces por obra, con tres o cuatro obras en paralelo.                                         | Ver el estado de todas las obras junto, no una por una.    | Vista consolidada multiobra, con indicadores por obra para gerencia.                                                               |
+| 8      | En algunas obras la conectividad es difícil o nula por la ubicación.                                                                                         | Poder registrar igual estando en obra.                     | Registro sin conexión que sincroniza cuando haya señal.                                                                            |
+| 9      | Control de calidad, SST y maquinaria también generan documentación, y no aparecieron en ningún punto del proceso descrito (salió en la pregunta de rescate). | Que esa documentación no quede por fuera del sistema.      | El alcance del repositorio documental incluye calidad, SST y hojas de vida de maquinaria y equipos.                                |
+| 10     | Cada rol necesita ver cosas distintas: administración lo financiero y contractual, residente el avance, gerencia los indicadores.                            | Que cada quien acceda a lo que le compete.                 | Perfiles de acceso por rol sobre la información de cada obra.                                                                      |
+
+> *Las citas textuales van entre comillas en el Anexo A: una cita literal es evidencia, una paráfrasis es interpretación.*
+
+**10. Dudas pendientes y validación**
+
+| **Duda pendiente**                                                                                                                                 | **A quién preguntarle**                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| ¿Cuántas órdenes de compra genera una obra típica y cuánto tarda en promedio la aprobación? (la entrevistada remitió a los archivos, no dio cifra) | Extraer de los archivos de Excel, con el contador.             |
+| ¿Se sostiene con registros la frecuencia declarada de «dos veces por obra»?                                                                        | Verificar contra los archivos históricos de las últimas obras. |
+| ¿Qué montos de compra requieren aprobación de quién?                                                                                               | Gerente de obra / contador.                                    |
+| ¿Cómo se controla hoy la documentación de calidad, SST y maquinaria? (rol detectado en la pregunta de rescate)                                     | Responsable de SST y de control de calidad.                    |
+| ¿Cuál es la conectividad real en los frentes de obra activos?                                                                                      | Director o residente de obra.                                  |
+| ¿Qué pasa con los soportes que quedan pendientes en el informe semanal, y cuántos quedan así?                                                      | Residente de obra.                                             |
+| ¿Quién diligenció el cuestionario preliminar de la empresa? (para no repetir preguntas en las siguientes entrevistas)
